@@ -8,6 +8,7 @@ class Two_page extends StatelessWidget {
     return Scaffold(
       body: Container(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Image.asset('assets/images/image 4.png'),
             SizedBox(

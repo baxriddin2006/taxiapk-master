@@ -7,8 +7,10 @@ class Three_page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+
         child: Column(
-          children: [
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+         children: [
         Image.asset('assets/images/image 5.png'),
             SizedBox(
               width: 439,
